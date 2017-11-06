@@ -1,0 +1,30 @@
+/* AUTOMATICALLY GENERATED ON Mon Nov 06 15:18:58 EST 2017*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DisplayNames", "**";
+  permission javax.security.jacc.WebRoleRefPermission "AddPersonServletSafe", "**";
+  permission javax.security.jacc.WebRoleRefPermission "LogPost", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DisplayPerson", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DisplayNamesSafe", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DisplayNamesJSPSafe", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DeletePersonServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "KeyLogger", "**";
+  permission javax.security.jacc.WebRoleRefPermission "EditPersonServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "FindMyPatientsByNameServletSafe", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "FindByNameServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UpdatePersonServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DisplayNamesJSP", "**";
+  permission javax.security.jacc.WebRoleRefPermission "FindMyPatientsByNameServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "DBTestQuick", "**";
+  permission javax.security.jacc.WebRoleRefPermission "AddPersonServlet", "**";
+};
+
